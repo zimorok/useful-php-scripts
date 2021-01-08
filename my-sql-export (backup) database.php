@@ -1,4 +1,6 @@
 <?php
+require("Connections/config.php");
+EXPORT_DATABASE($dbHost,$dbUser,$dbPass,$dbDatabase,'lkk'); 
 /* 
 ##### EXAMPLE #####
    EXPORT_DATABASE("localhost","user","pass","db_name" ); 
